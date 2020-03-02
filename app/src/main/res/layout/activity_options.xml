@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/startbackground"
+    tools:context=".OptionsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        />
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/white"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Settings"
+        android:textColor="@color/backgroundColor"
+        android:textSize="18sp" />
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_design"
+        android:backgroundTint="@color/white"
+        android:id="@+id/logout"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fira_sans_semibold"
+        android:text="Log Out"
+        android:textColor="@color/backgroundColor"
+        android:textSize="18sp" />
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="360dp"
+        android:src="@drawable/logo1"
+        android:tint="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fira_sans_extra_condensed"
+        android:text="Copyright©  2020  by Egehan Antalyali"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="8dp"
+        android:textStyle="italic" />
+
+    
+
+</LinearLayout>
